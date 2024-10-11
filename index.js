@@ -1,4 +1,5 @@
 const message = `I'm here`
-const logPresent = message
-
-console.log(logPresent);
+const logPresent = () => {
+  console.log(message);
+}
+// logPresent();
